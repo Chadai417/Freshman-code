@@ -14,6 +14,6 @@ int main() {
     printf("j:");
     scanf("%c",&j);
     printf("j=%c\n",j);
-    //回车：一键两字节\r \n
+    //回车：一键两字节\r \n   
     return 0;
 }
