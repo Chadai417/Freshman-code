@@ -8,12 +8,14 @@ int main() {
 
     char i,j;
     printf("i:");
-    scanf("%c",&i);
-    fflush(stdin); //清空输入缓冲区
+    scanf(" %c",&i);
+    //fflush(stdin); //清空输入缓冲区
     printf("i=%c\n",i);
     printf("j:");
-    scanf("%c",&j);
+    scanf(" %c",&j);
     printf("j=%c\n",j);
     //回车：一键两字节\r \n   
+    //空白：\r \n 空格
+    
     return 0;
 }
