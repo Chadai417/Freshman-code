@@ -1,0 +1,13 @@
+nihao=0
+count=0
+for i in range(1,35):
+    for j in range(1, 35):
+        if (i*2+j*4==94) and (i+j==35):
+            print("chicken={},rabbit={}".format(i,j))
+            nihao=1
+            break
+        count+=1
+    if nihao==1:
+        break
+
+print(count)
